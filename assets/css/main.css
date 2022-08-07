@@ -25,6 +25,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+titleHead {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 body {
 	line-height: 1;
 }
